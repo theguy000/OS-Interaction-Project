@@ -1,7 +1,15 @@
-import pyautogui
 import random
 import time
 import msvcrt
+def install_package(package):
+    try:
+        import package
+    except ImportError:
+        import subprocess
+        subprocess.check_call(["python", "-m", "pip", "install", package])
+
+install_package('pyautogui')
+import pyautogui
 
 def keypress():
     return msvcrt.kbhit()
