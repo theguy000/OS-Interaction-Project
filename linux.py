@@ -1,6 +1,15 @@
 import random
 import time
 from pynput import keyboard
+
+def install_package(package):
+    try:
+        import package
+    except ImportError:
+        import subprocess
+        subprocess.check_call(["python", "-m", "pip", "install", package])
+
+install_package('pyautogui')
 import pyautogui
 
 # Get screen width and height
