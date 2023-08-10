@@ -4,7 +4,7 @@
 
 #### Introduction
 
-This project consists of scripts to interact with the operating system and perform specific actions depending on whether the system is running Windows or Linux. On Windows, it performs random mouse movements, and on Linux, it listens for keyboard events.
+This project consists of scripts to interact with the operating system and perform specific actions depending on whether the system is running Windows or Linux. On Windows and Linux, it performs random mouse movements and stops when you press **ESC**
 
 #### Requirements
 
