@@ -27,9 +27,7 @@ To run the project, execute the `main.py` file:
 python main.py
 ```
 
-The script will detect the operating system and run the corresponding code:
-- On Windows: The script will perform random mouse movements on the screen.
-- On Linux: The script will monitor keyboard events and listen for the escape key.
+The script will detect the operating system and run the corresponding code!
 
 #### Contributing
 
